@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SLOK/sharelockRouter/interfaces/IWETH.sol": "IWETH"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SLOK/sharelockRouter/interfaces/IWETH.sol": {
+			"keccak256": "0x510fc2346ab554f18a9bdb7e9df81abf640e4677bbf31787504b89c710beb217",
+			"urls": [
+				"bzz-raw://c1457e40e081c914b5a7be5b0f3afaab4f6bae6080e20986f3c63c8e0403f27f",
+				"dweb:/ipfs/QmWbdcdEiQZPnJG1yVMCPz63dCyLNZFVYb7ftPKpQ8yGNj"
+			]
+		}
+	},
+	"version": 1
+}

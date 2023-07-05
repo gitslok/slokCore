@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Grail/CamelotRouter/libraries/UniswapV2Library.sol": "UniswapV2Library"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Grail/CamelotRouter/excalibur-core/contracts/interfaces/ICamelotPair.sol": {
+			"keccak256": "0xa4077ffde411ce2a6bbef82bd47c068d435a8d03cd35a70ea59b728eab79b08c",
+			"urls": [
+				"bzz-raw://bdcc62e6ba8281a96336a59d10e0aa710134201569cf3b79865675e9579ccc8c",
+				"dweb:/ipfs/QmThFDbgGfhDPPbazzmofkgZcUNNjZYMPHkJnjCXHuSYrQ"
+			]
+		},
+		"Grail/CamelotRouter/libraries/SafeMath.sol": {
+			"keccak256": "0x266cfc8fdbe74a69a4491e0cb3312067c452cefec9e0fc2e7f038420cf0c5054",
+			"urls": [
+				"bzz-raw://593ca684368b5f42cf10b1bd01727d03f263e66fec651f6b177d0ac71b514bfb",
+				"dweb:/ipfs/QmRCmPvy54Y787brop5QKEGGV1rtMcXNwgK33eKSC6hQkg"
+			]
+		},
+		"Grail/CamelotRouter/libraries/UniswapV2Library.sol": {
+			"keccak256": "0x61d0e61617368323bd1eb226f597d1e7850377e5a424fe3b4a0dcba15bdff63b",
+			"urls": [
+				"bzz-raw://d34280659bdf3318d5add0d1a64884da667b6caa98039e9476e87daa74bb97ea",
+				"dweb:/ipfs/QmQZYzr1sT4qy16pMURXpXxiAw5ED4PtLuVEaeUXg1ofLt"
+			]
+		}
+	},
+	"version": 1
+}

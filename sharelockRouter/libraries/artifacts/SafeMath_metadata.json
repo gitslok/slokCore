@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SLOK/sharelockRouter/libraries/SafeMath1.sol": "SafeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SLOK/sharelockRouter/libraries/SafeMath1.sol": {
+			"keccak256": "0xb35283807a3600a1df7abff9d82a7f8b563711333cb769bb473ed7c9c5b80cb3",
+			"urls": [
+				"bzz-raw://76578c35c07b8447d0ab87d34b71a2c2ca6995b5888ab9f6127e822e3d3e6e8e",
+				"dweb:/ipfs/QmVPaXWUbsXtVZoGaFg1DtcrRP9axX8XWJFy5jfJ9Mknkb"
+			]
+		}
+	},
+	"version": 1
+}
